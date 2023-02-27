@@ -36,7 +36,7 @@ window.addEventListener("load", () => {
             },
             body: form,
         });
-        const userData = await res.json();        
+        const userData = await res.text();        
         console.log("Done2222!",userData)       
     })
 
